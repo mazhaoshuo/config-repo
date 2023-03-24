@@ -1,1 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T01:56:54.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" version="20.2.7" etag="yivkqhJVcXOFIjFua_jT" type="github"><diagram id="z3ROwTr0vnGj3edvX7TA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-24T07:29:20.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.41" etag="WLe6p5H76PsJ_2b4i8l8" version="20.2.7" type="github">
+  <diagram id="z3ROwTr0vnGj3edvX7TA" name="第 1 页">
+    <mxGraphModel dx="1019" dy="654" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-53" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=1;fontColor=#FF0000;fillColor=#d5e8d4;strokeColor=#82b366;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-37" target="GU9Uh_yGJaipnfC5-sWa-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-73" value="抽&lt;br&gt;图" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="GU9Uh_yGJaipnfC5-sWa-53">
+          <mxGeometry x="-0.0742" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-70" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontSize=10;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-37" target="GU9Uh_yGJaipnfC5-sWa-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-74" value="获&lt;br&gt;取&lt;br&gt;视&lt;br&gt;频&lt;br&gt;流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="GU9Uh_yGJaipnfC5-sWa-70">
+          <mxGeometry x="0.1186" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-37" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png;fillStyle=auto;fontSize=11;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-40" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;shape=link;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-39" target="GU9Uh_yGJaipnfC5-sWa-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-39" value="&lt;b&gt;AI中台服务器&lt;/b&gt;&lt;br&gt;按摄像头配置抽帧的频率，通过中心的接口服务，获取一张最新的图片链接，并将图片链接放置在识别队列中。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="290" y="700" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=1;fontColor=#000000;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="505.28571428571433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-57" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=1;fontColor=#000000;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-60" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=1;fontColor=#000000;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="445.28571428571433" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-49" value="天津中心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="285" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-13" value="" style="image;html=1;image=img/lib/clip_art/networking/Ip_Camera_128x128.png;fillStyle=auto;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-14" target="GU9Uh_yGJaipnfC5-sWa-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-14" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;fillStyle=auto;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="440" y="410" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-19" value="" style="image;html=1;image=img/lib/clip_art/networking/Ip_Camera_128x128.png;fillStyle=auto;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-32" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-14" target="GU9Uh_yGJaipnfC5-sWa-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-20" value="" style="image;html=1;image=img/lib/clip_art/networking/Ip_Camera_128x128.png;fillStyle=auto;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-35" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-14" target="GU9Uh_yGJaipnfC5-sWa-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-30" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;shape=link;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-26" target="GU9Uh_yGJaipnfC5-sWa-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-26" value="&lt;font style=&quot;font-size: 10px; line-height: 1;&quot;&gt;&lt;b&gt;抽帧服务器&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;图片抽帧：&lt;/font&gt;通过多线程并发定时抽帧（&lt;font color=&quot;#ff0000&quot;&gt;定时时间暂定5秒&lt;/font&gt;），抽帧图片按摄像头ID分不同的目录保存在磁盘中。&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;定时删除：&lt;/font&gt;定时删除10分钟之前的图片数据，释放系统资源&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;图片获取接口：&lt;/font&gt;通过摄像头ID获取图片链接&lt;br style=&quot;font-size: 10px;&quot;&gt;，考虑每个摄像头采集频率可能不同，通过接口获取该摄像头图片链接&lt;br style=&quot;font-size: 10px;&quot;&gt;，只获取当前时间5秒内最新的第一张图，如果未能从磁盘获取到图片，则调用抽帧方法，进行实时抽图，并保存在摄像头目录，返回图片链接。&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;图片下载接口：&lt;/font&gt;提供图片下载功能&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=7;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="390" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-41" value="&lt;font style=&quot;font-size: 1px;&quot;&gt;图片抽帧&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fontSize=5;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="435" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-42" value="接口服务" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fontSize=11;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="495" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-44" value="拉取流进行抽帧" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fillStyle=auto;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="430" y="335" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-46" value="" style="image;html=1;image=img/lib/clip_art/networking/Ip_Camera_128x128.png;fillStyle=auto;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="460" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-47" value="" style="image;html=1;image=img/lib/clip_art/networking/Ip_Camera_128x128.png;fillStyle=auto;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-63" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-50" target="GU9Uh_yGJaipnfC5-sWa-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-64" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-50" target="GU9Uh_yGJaipnfC5-sWa-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-65" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-50" target="GU9Uh_yGJaipnfC5-sWa-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-66" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=10;fontColor=#000000;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="GU9Uh_yGJaipnfC5-sWa-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="559.9999999999998" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-50" value="内网穿透服务" style="image;html=1;image=img/lib/clip_art/computers/Network_128x128.png;labelBackgroundColor=none;labelBorderColor=none;fillStyle=auto;fontSize=11;fontColor=none;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="201" y="390" width="44" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-54" value="定时删除" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=auto;fontSize=11;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="465" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GU9Uh_yGJaipnfC5-sWa-67" value="转发视频流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="345" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
